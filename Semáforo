@@ -24,7 +24,7 @@ void loop()
   //semaforo 2
   digitalWrite(2, LOW); // desliga o led verde
   digitalWrite(3, HIGH);//liga o led amarelo
-  delay(1000); // Wait for 2000 millisecond(s)
+  delay(1000); // Wait for 1000 millisecond(s)
   //sEMAFORO 1
   digitalWrite(10, LOW);//DESLIGA O VERMELHO
   digitalWrite(8, HIGH);//LIGA O VERDE
@@ -32,7 +32,7 @@ void loop()
   digitalWrite(4, HIGH);
   digitalWrite(3, LOW);//liga o led amarelo
   
-  delay(2000); // Wait for 1000 millisecond(s)
+  delay(2000); // Wait for 2000 millisecond(s)
   //SEMAFORO 1
   digitalWrite(8, LOW); //DESLIGA O VERDE
   digitalWrite(9, HIGH);// LIGA O AMARELO
